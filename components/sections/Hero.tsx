@@ -39,7 +39,7 @@ export default function Hero() {
           </h1>
         </div>
 
-        <div className="w-[90%] flex items-center gap-6 my-8">
+        <div className="w-[72%] flex items-center gap-6 my-8">
           <div className="w-24 h-[1px] bg-black/60"></div>
           <div className="w-[5px] h-[5px] rounded-full bg-black/50"></div>
           <div className="flex-1 h-[1px] bg-black/25"></div>
