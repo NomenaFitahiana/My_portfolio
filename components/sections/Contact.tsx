@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import { HiOutlineLocationMarker } from "react-icons/hi";
+import { HiLocationMarker } from "react-icons/hi";
 
 const contactLinks = [
   {
@@ -15,7 +15,7 @@ const contactLinks = [
     icon: "github",
     label: "GITHUB",
     value: "github.com/NomenaFitahiana",
-    href: process.env.NEXT_PUBLIC_GITHUB,
+    href: process.env.NEXT_PUBLIC_GITHUB_URL,
   },
   {
     icon: "location",
@@ -37,7 +37,7 @@ const icons: Record<IconKey, React.ReactNode> = {
   email: <FaEnvelope />,
   github: <FaGithub />,
   linkedin: <FaLinkedin />,
-  location: <HiOutlineLocationMarker />,
+  location: <HiLocationMarker />,
 };
 
 export default function Contact() {
