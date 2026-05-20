@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaGithub, FaAt, FaPhone } from "react-icons/fa";
+import { FaGithub, FaAt, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -74,8 +74,8 @@ export default function Hero() {
               className="opacity-70 hover:opacity-35 transition-opacity duration-300"
             />
           </a>
-          <a href={process.env.NEXT_PUBLIC_PHONE} >
-            <FaPhone
+          <a href={process.env.NEXT_PUBLIC_LINKEDIN} >
+            <FaLinkedin
               size={17}
               className="opacity-70 hover:opacity-35 transition-opacity duration-300"
             />
