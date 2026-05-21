@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 
 import { useRef } from "react";
 
@@ -38,15 +38,17 @@ const projects = [
 
     export default function Projects() {
     return (
-        <section className="projects-section">
-        {/* LEFT PANEL */}
+        <section className="projects-section"> */
+
+
+        {/* LEFT PANEL 
         <div className="left-panel">
             <div className="selected-work-label">
             <span>SELECTED</span>
             <span>WORK</span>
-            </div>
+            </div> */}
 
-            {/* Polaroid stack */}
+            {/* Polaroid stack 
             <div className="polaroid-stack">
             {polaroids.map((p, i) => (
                 <div
@@ -59,8 +61,8 @@ const projects = [
                 >
                 <div className="polaroid-img">
                     {i === 0 && (
-                    <>
-                        {/* Laptop image placeholder */}
+                    <> */}
+                        {/* Laptop image placeholder 
                         <div className="polaroid-placeholder laptop" />
                         {p.caption && (
                         <div className="polaroid-caption">{p.caption}</div>
@@ -85,9 +87,9 @@ const projects = [
                 )}
                 </div>
             ))}
-            </div>
+            </div> */}
 
-            {/* Bottom quote */}
+            {/* Bottom quote 
             <div className="bottom-quote">
             <p>
                 <em>Design is not just</em>
@@ -100,9 +102,9 @@ const projects = [
             </p>
             <div className="quote-dash" />
             </div>
-        </div>
+        </div> */}
 
-        {/* RIGHT PANEL */}
+        {/* RIGHT PANEL 
         <div className="right-panel">
             <div className="work-label">/ WORK</div>
 
@@ -142,9 +144,9 @@ const projects = [
             width: 100%;
             background: var(--background, #f5f5f5);
             font-family: var(--font-body), sans-serif;
-            }
+            } */}
 
-            /* ── LEFT PANEL ── */
+            /* ── LEFT PANEL ── 
             .left-panel {
             width: 42%;
             background: #d9d6d0;
@@ -174,9 +176,9 @@ const projects = [
             height: 32px;
             background: #3a3a3a;
             margin-top: 10px;
-            }
+            } */
 
-            /* Polaroid stack */
+            /* Polaroid stack 
             .polaroid-stack {
             position: absolute;
             top: 50%;
@@ -234,9 +236,9 @@ const projects = [
             position: absolute;
             top: -18px;
             right: 30px;
-            }
+            } */
 
-            /* Bottom quote */
+            /* Bottom quote 
             .bottom-quote {
             position: absolute;
             bottom: 48px;
@@ -258,9 +260,9 @@ const projects = [
             height: 1.5px;
             background: #3a3a3a;
             margin-top: 12px;
-            }
+            } */
 
-            /* ── RIGHT PANEL ── */
+            /* ── RIGHT PANEL ── 
             .right-panel {
             width: 58%;
             background: #f0ede8;
@@ -296,9 +298,9 @@ const projects = [
             color: #333;
             line-height: 1.65;
             margin: 0 0 40px 0;
-            }
+            } */
 
-            /* Project list */
+            /* Project list 
             .projects-list {
             flex: 1;
             display: flex;
@@ -364,9 +366,9 @@ const projects = [
             background: #ccc;
             width: 100%;
             margin-bottom: 0;
-            }
+            } */
 
-            /* View all */
+            /* View all 
             .view-all {
             display: flex;
             justify-content: flex-end;
@@ -389,9 +391,9 @@ const projects = [
 
             .view-all:hover {
             color: #000;
-            }
+            } */
 
-            /* Responsive */
+            /* Responsive 
             @media (max-width: 768px) {
             .projects-section {
                 flex-direction: column;
@@ -410,4 +412,4 @@ const projects = [
         `}</style>
         </section>
     );
-}
+} */
