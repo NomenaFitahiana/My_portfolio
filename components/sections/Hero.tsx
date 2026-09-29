@@ -7,7 +7,7 @@ export default function Hero() {
       className="h-screen w-full flex"
       style={{ color: "var(--text-dark)" }}
     >
-      <div className="w-1/2 h-full relative bg-transparent">
+      <div className="w-1/2 h-full relative bg-transparent hidden md:block">
         <Image
           src="/images/heroImage.png"
           alt="Nomena Fitahiana"
