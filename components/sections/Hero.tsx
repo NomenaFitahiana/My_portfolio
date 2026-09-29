@@ -74,7 +74,7 @@ export default function Hero() {
               className="opacity-70 hover:opacity-35 transition-opacity duration-300"
             />
           </a>
-          <a href={process.env.NEXT_PUBLIC_LINKEDIN} >
+          <a href={process.env.NEXT_PUBLIC_LINKEDIN}>
             <FaLinkedin
               size={17}
               className="opacity-70 hover:opacity-35 transition-opacity duration-300"
